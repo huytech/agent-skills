@@ -1,0 +1,4 @@
+.tmp-install/
+node_modules/
+npm-debug.log*
+

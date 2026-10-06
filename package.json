@@ -1,0 +1,19 @@
+{
+  "name": "agent-skills",
+  "version": "0.1.0",
+  "description": "Reusable Codex agent skills.",
+  "license": "MIT",
+  "bin": {
+    "agent-skills": "./bin/agent-skills.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
+

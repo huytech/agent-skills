@@ -8,11 +8,18 @@ Reusable Codex skills maintained by HuyTech.
 
 ## Install
 
-Copy a skill folder into your Codex skills directory:
+Install a skill with `npx`:
 
 ```powershell
-Copy-Item -Recurse .\skills\humanizer "$env:USERPROFILE\.codex\skills\humanizer"
+npx github:huytech/agent-skills humanizer
 ```
 
-If you use `CODEX_HOME`, copy into `$env:CODEX_HOME\skills` instead.
+By default, the installer copies skills into `~/.agents/skills`.
 
+Useful commands:
+
+```powershell
+npx github:huytech/agent-skills list
+npx github:huytech/agent-skills humanizer --force
+npx github:huytech/agent-skills humanizer --dir "$env:USERPROFILE\.codex\skills"
+```
